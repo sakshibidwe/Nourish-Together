@@ -1,0 +1,28 @@
+
+
+.collab{
+font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: rgb(14, 16, 17);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: azure;
+    font-display: 10;
+}
+
+
+
+.left{
+    left: 40;
+
+    background: #ae4040;
+    
+}
+.right{
+    right: 40;
+    background: #ae4040;
+    
+}
+    

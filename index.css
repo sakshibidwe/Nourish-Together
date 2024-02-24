@@ -1,0 +1,110 @@
+body {
+
+    /* background-image: url('ZHimage1.jpeg'); Specify the path to your image */
+    background-image: url('image3.png'); /* Specify the path to your image */
+    
+    background-size: 100% 430px;
+ /* This will make the background image cover the entire body */
+    background-repeat: no-repeat; /* This ensures the image does not repeat */
+    /* You can also set other properties like background-position, background-attachment, etc. */
+
+    padding-left: auto;
+    padding-right: 0;
+}
+
+.navbar-logo{
+    position: absolute;
+    left: 0;
+    padding-left: 40px;
+}
+
+header{
+    position: sticky;
+    top: 0;         
+  width: 100%bf
+}
+
+.content {
+    /* Styles for the content area */
+    padding: 20px;
+}
+.quote{
+   color: white;
+   position: relative;
+   top: 300px;
+   text-align: center;
+   font-size: 60px;
+}
+ 
+
+
+.nav-link{
+   
+    font-size: 23px;
+    color: black;
+    margin-right: 23px; /* Add space between each navigation item */
+      
+}
+.nav-item{
+    font-size: 23px;
+}
+
+.dropdown-toggle{
+    font-size: 23px;
+}
+.image2{
+    background-repeat: no-repeat;
+    position: absolute;
+
+  top: 520px; /* Adjust the top position as needed */
+  left: 100px; 
+}
+#size1{
+    margin-top: 30px;
+    width: 600px; /* Set the width of the image */
+  height: auto;
+  border-radius: 25px;
+
+}
+#head2{
+    position: relative;
+    font-size: 45px;
+    top: 280px;
+    left: 720px;
+     
+}
+
+#mainpara1{
+  font-size: 21px;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  margin-right: 90px ;
+  margin-left: 750px;
+  text-align: justify;
+  text-justify:inter-word;
+}
+
+
+#donatebtn a{
+    text-decoration: none;
+    color: white;
+}
+
+#slogan{
+   color: white;
+   position: relative;
+   margin-top: 220px;
+   text-align: center;
+   font-size: 60px;
+
+}
+#btntwo{
+   margin-top: 50px;
+}
+
+
+
+
+
+
+  

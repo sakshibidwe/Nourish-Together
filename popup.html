@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family:"poppins", sans-serif;
+    
+            }
+            body{
+                height: 100vh;
+                display: flex;
+                align-items:center;
+                justify-content: center;
+
+            }
+            .open{
+                border: none;
+                padding: 7px 25px;
+                background-color: blue;
+                color: white;
+                cursor: pointer;
+                font-size: 18px;
+                border-radius: 5px;
+            }
+            .open:hover{
+                background-color: #333;
+
+            }
+            .box{
+                background-color: #333;
+                width: 300px;
+                height: 100px;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                border-radius: 10px;
+                display: none;
+
+            }
+            .close{
+                display: flex;
+                justify-content: flex-end;
+            }
+            .close-b{
+                border: none;
+                background: none;
+                color: blue;
+                font-weight: bold;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            .close-b:hover{
+                color: white;
+            }
+
+        </style>
+        <title>Choose</title>
+    </head>
+    <body>
+        <div class="container">
+           <a href="Donate.html" button class="open" id="open" onclilck="open_box()">Donate Food</button></a><br><br><br>
+            <a href="payment.html" button class="open" id="open"onclilck="open_box()">Pay Here.....</button></a>
+            <div class="box" id="box">
+                <span class="close">
+                    <button class="close-b"
+                    onclick="close_box()">x</button>
+                </span>
+            </div>
+        </div>
+        <script>
+            var openb = document.hetElementById
+            ("open");
+            var box = document.getElementById
+            ("box");
+            function open_box(){
+                box.style.display = "block";
+                openb.style.dispaly = "none";
+            }
+            function close_box(){
+                box.style.display = "none"
+                openb.style.display = "block"
+            }
+        </script>
+    </body>
+</html>
